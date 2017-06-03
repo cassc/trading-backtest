@@ -16,8 +16,8 @@ import static java.lang.String.format;
 
 public class BacktestMain {
     public static void main(String[] args) throws URISyntaxException, IOException {
-        String x = "GLD";
-        String y = "GDX";
+        String x = "sz002041";
+        String y = "sh603997";
 
         // initialize the trading strategy
         TradingStrategy strategy = new CointegrationTradingStrategy(x, y);
